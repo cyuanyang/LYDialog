@@ -60,7 +60,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     .setContent("Quint！")
                     .setEnter("给钱")
                     .setCancel("取消");
-//                    .setAnim(R.style.LYDialog_SlideAnim);
             builder.build().show();
         } else if (view.getId() == R.id.in_btn1) {
 
