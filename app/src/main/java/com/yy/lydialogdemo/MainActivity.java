@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     .setCancel("取消");
             builder.build().show();
         } else if (view.getId() == R.id.in_btn1) {
-
+            int i= 0 ;
         }
     }
 
