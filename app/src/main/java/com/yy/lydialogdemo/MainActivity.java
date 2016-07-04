@@ -7,6 +7,7 @@ import android.widget.Button;
 
 import com.yy.lydialog.LYNormalDialog;
 import com.yy.lydialog.LYQuintDialog;
+import com.yy.lyindicatedialog.LYIndicatedDialog;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -62,8 +63,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     .setCancel("取消");
             builder.build().show();
         } else if (view.getId() == R.id.in_btn1) {
-            int i= 0 ;
+            LYIndicatedDialog.newIndicatedDialog(this).show();
         }
+
     }
 
     private void initView() {
@@ -80,4 +82,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         inBtn1 = (Button) findViewById(R.id.in_btn1);
         inBtn1.setOnClickListener(MainActivity.this);
     }
+
 }

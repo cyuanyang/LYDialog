@@ -1,1 +1,1 @@
-include ':app', ':lydialog'
+include ':app', ':lydialog', ':lyindicatedialog'
